@@ -5,7 +5,7 @@ import { FC } from 'react';
 const Layout:FC = ({ children }) => (
     <div className='mx-16 pt-4'>
         <Head>
-            <title>App Title will go here</title>
+            <title>React Notifications</title>
         </Head>
         <div>
             <div>
@@ -22,7 +22,7 @@ const Layout:FC = ({ children }) => (
                     </li> */}
                 </ul>
             </div>
-            <h1 className='text-3xl font-bold text-blue-600'>App Name</h1>
+            <h1 className='text-3xl font-bold text-blue-600 text-center mb-8'>React Notifications</h1>
         </div>
         <main>{children}</main>
     </div>
